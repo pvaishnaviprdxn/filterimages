@@ -225,19 +225,49 @@ nav a:hover{
     
 }
 .f2{
+    width: 100%;
+} 
+.fti2 h3{
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 8px;
 
 }
-.fti2 h3{
+.f2 .fcont a{
+    color: rgba(250, 248, 248, 0.534);
+    font-size: 10px;
+    padding: 10px 8px 0 0;
+    margin-right: 30px;
 
 }
 .f3{
-
+    width: 100%;
+}
+.t1{
+    background-color: rgb(143,208,166);
+    padding: 8px 11px;
+    color: white;
+    font-size: 12px;
+    margin: 10px 4px 0 0;
+}
+.t1.active{
+    background-color: rgb(191,191,191);
 }
 .f4{
-
+    width: 100%;
+   
 }
-
-
+.fgal-flex{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.g1 img,.g2 img,.g3 img,.g4 img,.g4 img,.g5 img,.g6 img{
+    width: 65px;
+    height: 65px;
+    margin:0 10px 10px 0;
+}
 
 
  /*=================================
