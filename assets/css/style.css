@@ -199,9 +199,43 @@ nav a:hover{
 /*=================================
   footer styling starts here
 =================================*/ 
+.foot{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+.f-flex-cont{
+    display: flex;
+}
+.f1{
+    width: 100%;
+    margin-right: 40px;
 
+}
+.fti1 h3{
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+.fcont p{
+    font-size: 10px;
+    padding: 9px 0;
+    color: rgba(250, 248, 248, 0.534);
+    
+}
+.f2{
 
+}
+.fti2 h3{
 
+}
+.f3{
+
+}
+.f4{
+
+}
 
 
 
