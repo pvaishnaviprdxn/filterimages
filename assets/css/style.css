@@ -100,7 +100,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 80%; 
   margin: 0 auto;
 }
 /*=================================
@@ -156,10 +156,24 @@ nav a:hover{
 /*=================================
   main styling starts here
 =================================*/
-
-
-
-
+.name-container{
+    margin: 30px 0 30px 0;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:rgb(143,208,166);
+}
+.btn.active {
+    background-color:rgb(143,208,166);
+    color: white;
+}
 
 
 
