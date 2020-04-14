@@ -261,15 +261,34 @@ nav a:hover{
 .fgal-flex{
     display: flex;
     flex-wrap: wrap;
-   
 }
 .g1 img,.g2 img,.g3 img,.g4 img,.g4 img,.g5 img,.g6 img{
     width: 65px;
     height: 65px;
     margin:0 10px 10px 0;
 }
-
-
+.cpy-contact{
+    float: left;
+    width: 100%;
+}
+.cp{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+.cp p{
+    font-size: 11px;
+    color:rgba(250, 248, 248, 0.534);
+}
+.contact{
+    float: right;
+    color: white;
+}
+.contact a{
+    color: white;
+    font-size: 18px;
+    padding: 0 4px;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
