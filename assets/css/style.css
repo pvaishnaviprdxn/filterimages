@@ -174,10 +174,24 @@ nav a:hover{
     background-color:rgb(143,208,166);
     color: white;
 }
-
-
-
-
+.column {
+    float: left;
+    width: 25%;
+    display: none; /* Hiding all elements by default */
+}
+/* Clear floats after rows */ 
+.img-row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+.content img{
+   width: 100%;
+   height: 150px;
+}
+.show{
+    display: block;
+}
 /*=================================
   main styling ends here
 =================================*/
