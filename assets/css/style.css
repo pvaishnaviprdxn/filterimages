@@ -100,17 +100,55 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 80%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
+body{
+    background-color: rgb(31,31,31);
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+.head{
+    width: 80%;
+    margin-left: 10%;
+}
+.logo_img{
+    width: 49%;
+    display: inline-block;
+    padding: 40px 0;
+}
+.menu{
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+nav a{
+    text-align: right;
+    color: white;
+    margin: 0 0 0 43px;
+    padding: 14px 0;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+nav a:hover{
+    border-bottom: 3px solid;
+    border-bottom-color:rgb(143,208,166);
+}
+.hrline{
+    width: 80%;
+    height: 0.34px;
+    background-color: rgb(71, 66, 66);
+    margin-left: 10%;
+}
 /*=================================
   Header styling ends here
 =================================*/  
@@ -118,14 +156,45 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
-
-
-
-
-
-
-
+#name-container{
+    margin: 30px 0 30px 0;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:rgb(143,208,166);
+}
+.btn.active {
+    background-color:rgb(143,208,166);
+    color: white;
+}
+.column {
+    float: left;
+    width: 25%;
+    display: none; /* Hiding all elements by default */
+}
+/* Clear floats after rows */ 
+.img-row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+.content img{
+   width: 100%;
+   height: 150px;
+}
+.show{
+    display: block;
+}
+img{
+    color: white;
+}
 /*=================================
   main styling ends here
 =================================*/
@@ -133,13 +202,97 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+    margin-top: 60px;
+}
+.foot{
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+}
+.f-flex-cont{
+    display: flex;
+}
+.f1{
+    width: 100%;
+    margin-right: 40px;
 
+}
+.fti1 h3{
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 8px;
+}
+.fcont p{
+    font-size: 10px;
+    padding: 9px 0;
+    color: rgba(250, 248, 248, 0.534);
+    
+}
+.f2{
+    width: 100%;
+} 
+.fti2 h3{
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 8px;
 
-
-
-
-
-
+}
+.f2 .fcont a{
+    color: rgba(250, 248, 248, 0.534);
+    font-size: 10px;
+    padding: 10px 8px 0 0;
+    margin-right: 30px;
+}
+.f3{
+    width: 100%;
+}
+.t1{
+    background-color: rgb(143,208,166);
+    padding: 8px 11px;
+    color: white;
+    font-size: 12px;
+    margin: 10px 4px 0 0;
+}
+.t1.active{
+    background-color: rgb(191,191,191);
+}
+.f4{
+    width: 100%;
+}
+.fgal-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.g1 img,.g2 img,.g3 img,.g4 img,.g4 img,.g5 img,.g6 img{
+    width: 65px;
+    height: 65px;
+    margin:0 10px 10px 0;
+}
+.cpy-contact{
+    float: left;
+    width: 100%;
+}
+.cp{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+.cp p{
+    font-size: 11px;
+    color:rgba(250, 248, 248, 0.534);
+}
+.contact{
+    float: right;
+    color: white;
+}
+.contact a{
+    color: white;
+    font-size: 18px;
+    padding: 0 4px;
+}
  /*=================================
   footer styling ends here
 =================================*/ 

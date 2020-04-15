@@ -31,7 +31,7 @@
 
   <!--font-awesome link for icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel = "stylesheet" href = "fontawesome/css/all.min.css">
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
   <link rel="stylesheet" media="screen" href="assets/css/style.css" >
 
@@ -47,20 +47,210 @@
   <div class="container">
     <!--header section start-->
     <header>
-        
+        <div class = "head">
+            <div class = "logo_img">
+                <a href = "#fixme" title = "Aboutus">
+                    <img src = "logo.jpeg" alt = "NERVA">
+                </a>
+            </div>
+            <div class = "menu">
+                <nav>
+                    <a href = "#fixme" title = "Home">Home</a>
+                    <a href = "#fixme" title = "About">About</a>
+                    <a href = "#fixme" title = "Services">Services</a>
+                    <a href = "#fixme" title = "Blog">Blog</a>
+                    <a href = "#fixme" title = "Contact">Contact</a>
+                </nav>
+            </div>
+        </div>
     </header>
+    <div class = "hrline"></div>
     <!--header section start-->
     <!--main section start-->
     <main>
       <section>
-        
+        <div class = "wrapper">
+            <div id = "name-container">
+                <input type = "button" value = "All" class = "btn active" onclick = "filterSelection('all')">
+                <input type = "button" value = "Wallpapers" class = "btn" onclick = "filterSelection('wallpapers')">
+                <input type = "button" value = "Logos" class = "btn" onclick = "filterSelection('logos')">
+                <input type = "button" value = "Business Cards" class = "btn" onclick = "filterSelection('busicards')">
+                <input type = "button" value = "Stationaries" class = "btn" onclick = "filterSelection('stationary')">
+                <input type = "button" value = "Websites" class = "btn" onclick = "filterSelection('websites')">
+                <input type = "button" value = "Mobile Apps" class = "btn" onclick = "filterSelection('mobapps')">
+            </div>
+            <div class = "img-row">
+                <!--wallpapers-->
+                <div class = "column wallpapers">
+                    <div class = "content">
+                        <img src = "assets/images/wall1.jpg" class = "wall1" alt = "Mixedwall">
+                    </div>
+                </div>
+                <div class = "column wallpapers">
+                    <div class = "content">
+                        <img src = "assets/images/wall2.jpg" class = "wall2" alt = "pineapple">
+                    </div>
+                </div>
+                <div class = "column wallpapers">
+                    <div class = "content">
+                        <img src = "assets/images/wall3.jpg" class = "wall3" alt = "lights">
+                    </div>
+                </div>
+                <div class = "column wallpapers">
+                    <div class = "content">
+                        <img src = "assets/images/wall4.jpg" class = "wall4" alt = "furniture">
+                    </div>
+                </div>
+                <!-- logos div -->
+                <div class = "column logos">
+                    <div class = "content">
+                        <img src = "assets/images/logo1.jfif" class = "logo1" alt = "logo design">
+                    </div>
+                </div>
+                <div class = "column logos">
+                    <div class = "content">
+                        <img src = "assets/images/logo2.png" class = "logo2" alt = "logo design">
+                    </div>
+                </div>
+                <div class = "column logos">
+                    <div class = "content">
+                        <img src = "assets/images/logo3.jpg" class = "logo3" alt = "logo design">
+                    </div>
+                </div>
+                <div class = "column logos">
+                    <div class = "content">
+                        <img src = "assets/images/logo4.jpeg" class = "logo4" alt = "logo design">
+                    </div>
+                </div>
+                <!--Business cards-->
+                <div class = "column busicards">
+                    <div class = "content">
+                        <img src = "assets/images/bn1.jfif" class = "bn1" alt = "card design">
+                    </div>
+                </div>
+                <div class = "column busicards">
+                    <div class = "content">
+                        <img src = "assets/images/bn2.jpg" class = "bn2" alt = "card design">
+                    </div>
+                </div>
+                <div class = "column busicards">
+                    <div class = "content">
+                        <img src = "assets/images/bn3.jpg" class = "bn3" alt = "card design">
+                    </div>
+                </div>
+                <div class = "column busicards">
+                    <div class = "content">
+                        <img src = "assets/images/bn4.jpg" class = "bn4" alt = "card design">
+                    </div>
+                </div>
+                <!--Stationary-->
+                <div class = "column stationary">
+                    <div class = "content">
+                        <img src = "assets/images/st1.jfif" class = "st1" alt = "colors">
+                    </div>
+                </div>
+                <div class = "column stationary">
+                    <div class = "content">
+                        <img src = "assets/images/st2.jpg" class = "st2" alt = "letters">
+                    </div>
+                </div>
+                <div class = "column stationary">
+                    <div class = "content">
+                        <img src = "assets/images/st3.png" class = "st3" alt = "craft material">
+                    </div>
+                </div>
+                <div class = "column stationary">
+                    <div class = "content">
+                        <img src = "assets/images/st4.jpg" class = "st4" alt = "Room art">
+                    </div>
+                </div>
+            </div>
+        </div> 
       </section>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
     <footer>      
-
+        <div class = "foot">
+            <div class = "f-flex-cont">
+                <div class = "f1">
+                    <div class = "fti1">
+                        <h3>Text WIDGET</h3>
+                    </div>
+                    <div class = "fcont">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+                <div class = "f2">
+                    <div class = "fti2">
+                        <h3>Recent Posts</h3>
+                    </div>
+                    <div class = "fcont">
+                        <a href = "#fixme" title = "Posts">"Lorem ipsum dolor sit amet</a>
+                        <a href = "#fixme" title = "Posts">Excepteur sint occaecat cupidatat non proident, sunt in culpa</a>
+                        <a href = "#fixme" title = "Posts">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</a>
+                        <a href = "#fixme" title = "Posts">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam </a>
+                    </div>
+                </div>
+                <div class = "f3">
+                    <div class = "fti2">
+                        <h3>Popular Tags</h3>
+                    </div>
+                    <div class = "fcont">
+                        <a href = "#fixme" title = "tags" class = "t1">illustration</a>
+                        <a href = "#fixme" title = "tags" class = "t1">minimal</a>
+                        <a href = "#fixme" title = "tags" class = "t1 active">coding</a>
+                        <a href = "#fixme" title = "tags" class = "t1">html</a>
+                        <a href = "#fixme" title = "tags" class = "t1">printing</a>
+                        <a href = "#fixme" title = "tags" class = "t1">illustration</a>
+                    </div>
+                </div>
+                <div class = "f4">
+                    <div class = "fti2">
+                        <h3>FLICKR GALLERY</h3>
+                    </div>
+                    <div class = "fcont">
+                        <div class = "fgal-flex">
+                            <div class = "g1">
+                                <img src = "assets/images/logo1.jfif" class = "logo1" alt = "">
+                            </div>
+                            <div class = "g2">
+                                <img src = "assets/images/wall4.jpg" class = "logo1" alt = "">
+                            </div>
+                            <div class = "g3">
+                                <img src = "assets/images/st3.png" class = "logo1" alt = "">
+                            </div>
+                            <div class = "g4">
+                                <img src = "assets/images/st4.jpg" class = "logo1" alt = "">
+                            </div>
+                            <div class = "g5">
+                                <img src = "assets/images/bn3.jpg" class = "logo1" alt = "">
+                            </div>
+                            <div class = "g6">
+                                <img src = "assets/images/bn4.jpg" class = "logo1" alt = "">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "cpy-contact">
+                <div class = "cp">
+                    <p>
+                        &#169; 2014 NERVA, All Rigths Reserved.
+                    </p>
+                </div>
+                <div class = "contact">
+                    <a href = "#fixme" title = "Google plus" class="fab fa-google-plus"></a>
+                    <a href = "#fixme" title = "twitter" class="fab fa-twitter"></a>
+                    <a href = "#fixme" title = "pinterest" class="fab fa-pinterest"></a>
+                    <a href = "#fixme" title = "dribbble" class="fab fa-dribbble"></a>
+                    <a href = "#fixme" title = "linkedin" class="fab fa-linkedin-in" ></a>
+                    <a href = "#fixme" title = "facebook" class="fab fa-facebook"></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <!--footer section end-->
 
